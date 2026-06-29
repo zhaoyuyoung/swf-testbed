@@ -49,6 +49,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: BNLNPPS/swf-monitor
+          ref: infra/baseline-v37
           path: swf-monitor
 
       - name: Checkout swf-common-lib
